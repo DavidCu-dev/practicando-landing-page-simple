@@ -9,19 +9,20 @@
   <body>
     <header>
       <nav>
-        <ul>
+        <ul class="navegacion">
           <li><a href="#top">Inicio</a></li>
           <li><a href="#secAcerca">Sobre Nosotros</a></li>
           <li><a href="#secProyecto">Proyectos</a></li>
           <li><a href="#secContacto">Contacto</a></li>
         </ul>
       </nav>
+      <br />
     </header>
     <h1>Landing page</h1>
     <main>
-      <section id="secAcerca">
+      <section id="secAcerca" class="acercaNosotros, centrar">
         <h2>Acerca de nosotros</h2>
-        <div>
+        <div class="texto">
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque,
             cupiditate nihil vero aliquam voluptas possimus repellendus iure,
@@ -38,7 +39,8 @@
           </p>
         </div>
       </section>
-      <section id="secProyecto">
+
+      <section id="secProyecto" class="proyectos, centrar">
         <h2>Peoyectos</h2>
         <div>
           <ul>
@@ -50,31 +52,35 @@
           </ul>
         </div>
       </section>
-      <section id="secContacto">
+
+      <section id="secContacto" class="formulario, centrar">
         <h2>Contactanos</h2>
-        <form action="">
-          <label for="nombre">
-            Nombre: <input type="text" id="nombre" />
-          </label>
-          <br /><br />
-          <label for="asunto">
-            Asunto: <input type="text" id="asunto" />
-          </label>
-          <br /><br />
-          <label for="numero">
-            Numero: <input type="text" id="numero" />
-          </label>
-          <br /><br />
-          <label for="correo">
-            Email: <input type="email" id="correo" />
-          </label>
-          <br /><br />
-          <br />
-          <button>Enviar</button>
-        </form>
+        <div>
+          <form action="">
+            <label for="nombre">
+              Nombre: <input type="text" id="nombre" />
+            </label>
+            <br /><br />
+            <label for="asunto">
+              Asunto: <input type="text" id="asunto" />
+            </label>
+            <br /><br />
+            <label for="numero">
+              Numero: <input type="text" id="numero" />
+            </label>
+            <br /><br />
+            <label for="correo">
+              Email: <input type="email" id="correo" />
+            </label>
+            <br /><br />
+            <br />
+            <button>Enviar</button>
+          </form>
+        </div>
+        <br /><br />
       </section>
     </main>
-    <footer>
+    <footer id="footer">
       <ul>
         <li>11-2233-4455</li>
         <li>LandingPage</li>
